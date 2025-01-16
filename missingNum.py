@@ -35,5 +35,5 @@ def missNum():
         newList.append(1)
         print("Number Deleted: 1")
         print("With Number Added: ", newList)
-    
+missNum()
 
