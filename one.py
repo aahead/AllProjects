@@ -8,3 +8,5 @@ def main():
         print("Your string " + string + " is a palindrome") # if yes this will print to the screen
     else:
         print("Your string " + string + " is not a palindrome") # else this will print
+
+main()
