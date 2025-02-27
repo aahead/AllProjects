@@ -68,6 +68,12 @@ public class ArraySearch {
         
         long binaryEndTime = System.nanoTime();
         System.out.println("Binary search took " + (binaryEndTime - binaryStartTime) + " nanoseconds.");
+        
+        if ((binaryEndTime - binaryStartTime) < (linearEndTime - linearStartTime)){
+            System.out.println("Binary search was faster.");
+        } else{
+            System.out.println("Linear search was faster.");
+        }
 
         // TODO: Display the result of the binary search (index or not found)
 
